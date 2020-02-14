@@ -1,0 +1,42 @@
+input B:
+
+100 10
+4 14 15 18 29 32 36 82 95 95
+0 1   2  3 4  5   6  7  8  9
+
+
+output:
+maximum: 100 slices
+number of pizzas: 10
+
+solutions
+1: 95, 4         => 99
+2: 82, 18        => 100
+3: 82, 14, 4     => 100
+4: 95            => 95
+5: 4             => 4
+
+expected output
+Solution 2:
+Output file:
+2
+3 7
+
+Solution 3:
+Output file:
+3
+0 1 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+100 10
+4 14 15 18 29 32 36 82 95 95
+
+
+current algo:
+4, 18, 33, 51, 80, 112
+
+4, 14, 15, 18, 29  ==> sum = 80 slices
+
+// pseudo code
+
+// best greedy or dumb/stupid algorithm that would solve this
+
+// init sum value to zero
+
+// loop from start to end (end to start)
+    // add curr value to sum
+    // if (sum > max slices)
+        // get previous position (ex
+        // break
+
+    // end of loop (4)
+
+
+ //  get positions for output file ==> 0, 1, 2, 3, 4
+
+
+   //output:
+   4
+   0 1 2 3 4
+
+
+

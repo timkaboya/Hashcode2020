@@ -1,4 +1,17 @@
+input:
+17 4
+2 5 6 8
+
+output
+2 6 8
+positions
+0 2 3
+
 3
 0 2 3
+
+scoring: 2+6+8 => 16 points out of a possible 17
+
+
 
 

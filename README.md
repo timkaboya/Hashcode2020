@@ -9,21 +9,21 @@ Google’s team-based programming competition, Hash Code, allows you to share yo
 
 ### Introduction 
 
-You are organizing a Hash Code hub and want to order pizza for paicipants. Luckily, there is a nearby pizzeria with really good pizza.
+You are organizing a Hash Code hub and want to order pizza for paicipants. Luckily, there is a nearby pizzeria with really good pizza.    
 
-The pizzeria has dierent types of pizza, and to keep the food oering interesting, we can only order at most one pizza of each type.
- Founately, there are many types of pizza to choose from!
-Each type of pizza has a specied size: the size is the number of pizza slices in it.
+The pizzeria has dierent types of pizza, and to keep the food oering interesting, we can only order at most one pizza of each type.    
+ Founately, there are many types of pizza to choose from!   
+Each type of pizza has a specied size: the size is the number of pizza slices in it.   
 Based on the number of paicipants, you estimated a maximum number of slices that you want to order – in order to reduce waste, 
-the goal is to order as many pizza slices as possible, but not more than the maximum number. 
+the goal is to order as many pizza slices as possible, but not more than the maximum number.     
 
 ### Input
 
 Each input data set is provided in a plain text le containing exclusively ASCII characters with lines terminated with a single '\n' character (UNIX-style line endings). When a single line contains multiple elements, they are separated by single spaces.
-The rst line of the data set contains the following data:
-● an integer M (1 ≤ M ≤ 109) – the maximum number of pizza slices to order
-● an integer N (1 ≤ N ≤ 105) – the number of dierent types of pizza
-The second line contains N integers: the number of slices in each type of pizza, in non-decreasing order:
+The rst line of the data set contains the following data:    
+● an integer M (1 ≤ M ≤ 109) – the maximum number of pizza slices to order .  
+● an integer N (1 ≤ N ≤ 105) – the number of dierent types of pizza     
+The second line contains N integers: the number of slices in each type of pizza, in non-decreasing order:    
 
 ### Task 
 
@@ -33,20 +33,20 @@ To condense the essence of the question, this is the problem >>>
 ### Output:  
 
 File format
- The output should contain two lines:
+ The output should contain two lines:    
  ● The rst line should contain a single integer K (0 ≤ K ≤ N) – the number of
- dierent types of pizza to order.
+ dierent types of pizza to order.    
  ● The second line should contain K numbers – the types of pizza to order (the
- types of pizza are numbered from 0 to N-1 in the order they are listed in the input).
- The total number of slices in the ordered pizzas must be less than or equal to M.
+ types of pizza are numbered from 0 to N-1 in the order they are listed in the input).   
+ The total number of slices in the ordered pizzas must be less than or equal to M.     
  
 ### Solution
 
-Solution in code is the dumb approach of adding pizzas from the highest to the lowest. 
-This still gives a high scoring solution for the given datasets
+Solution in code is the dumb approach of adding pizzas from the highest to the lowest.    
+This still gives a high scoring solution for the given datasets .  
     
-TODO: Improve Greedy solution to add ordering based on how interesting
-the transition can be. (Some common sets, and some not so common)
+TODO: Improve Greedy solution to add ordering based on how interesting .  
+the transition can be. (Some common sets, and some not so common) .   
 
 ### Limitation
 
